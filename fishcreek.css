@@ -1,9 +1,11 @@
+@media only screen and (max-width: 1024px;)
 * { box-sizing: border-box; }
 header, nav, main, footer { display: block; }
-body { background-color: #5280C5;
-     background-image: url(gradientblue.jpg); 
+body { background-color: #ffffff;
       color: #003366 ;
 	  font-family: Verdana, Arial, sans-serif;
+        margin: 0em;
+        padding: 0em;
 }
 header { background-color: #000066;
        color: #F0F0F0;
@@ -12,23 +14,30 @@ header { background-color: #000066;
 	   background-position: center;
 	   text-align: center;
 }
-h1 { line-height: 250%;
+h1 { line-height: 200%;
  	margin-bottom: 0;
-	font-size: 3em;
+	font-size: 1.8em;
 	padding: .2em;
 	text-shadow: 3px 3px 3px #CCCCCC;
 
 }
 nav { font-weight: bold;  
-     padding: 5px;
-	 float: left;
-	 width: 180px;
+     padding: 0px;
+	 float: none;
+	 width: auto;
 }
-nav ul { list-style-type: none; }
+nav li { display: inline-block;}
+nav ul { list-style-type: none; 
+            margin: 0em;
+            padding: 0em;
+            text-align: center;}
 nav a { text-decoration: none; }
 nav a:link { color: #000066; }
 nav a:visited { color: #5280C5; }
-nav a:hover { color: #3262A3; } 
+nav a:hover { color: #3262A3; }
+nav a: {padding: 1em;}
+nav a: {font-size 1.2em;}
+
 .category { font-weight: bold;
 			color: #5280C5;
 			 font-family: Georgia, "Times New Roman", serif; 
@@ -47,16 +56,15 @@ main { padding-left: 2em;
 	 border: 1px solid #AEC3E3;
 
 }
-footer { font-size: .70em;
+footer { font-size: 90%;
        font-style: italic;
 	   text-align: center;
 	   background-color: #AEC3E3;
-	   margin-left: 180px;
-	   padding: 1em;
+	   margin-left: 0px;
+	   padding -left: 2em;
 }
 #wrapper { width: 80%;
-           margin-right: auto;
-		   margin-left: auto;
+           margin: 0em;
 		   background-color: #F0F0F0;
-		   min-width: 700px;
+		   min-width: 0px;
 }
